@@ -284,3 +284,29 @@ nav .small-screen-menu-icons img{
     }
     
 }
+
+.main-swimimng-pools{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+  gap: 30px;
+
+  
+}
+.main-swimimng-pools-bg{
+  background-color: white;
+  border-radius: 20px;
+  width: 81%;
+  position: relative;
+  bottom: 90px;
+  justify-self: center;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.178);
+}
+@media screen and (max-width: 425px) {
+   .main-swimimng-pools{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    }
+  }
