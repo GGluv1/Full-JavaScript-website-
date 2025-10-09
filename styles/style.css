@@ -303,6 +303,10 @@ nav .small-screen-menu-icons img{
   justify-self: center;
   box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.178);
 }
+.firsttext{
+font: bold;
+}
+
 @media screen and (max-width: 425px) {
    .main-swimimng-pools{
     display: block;
